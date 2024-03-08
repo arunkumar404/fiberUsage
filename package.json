@@ -1,0 +1,30 @@
+{
+  "name": "custbbextraction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.23.6",
+    "@babel/parser": "^7.23.6",
+    "@babel/traverse": "^7.23.7",
+    "uuid": "^9.0.1",
+    "postcss": "^8.4.31",
+    "postcss-js": "^4.0.1",
+    "postcss-selector-parser": "^6.0.13",
+    "rimraf": "^5.0.1",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.3",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "jsdoc": "^4.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

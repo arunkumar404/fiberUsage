@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Component Visualization</title>
+  </head>
+  <body>
+    <canvas id="reactCanvas"></canvas>
+    <script>
+      const components =[
+  {
+    "componentName": "App",
+    "left": 0,
+    "top": 0,
+    "right": 1735.4544677734375,
+    "bottom": 1220.6817626953125,
+    "width": 1735.4544677734375,
+    "height": 1220.6817626953125
+  },
+  {
+    "componentName": "Layout",
+    "left": 0,
+    "top": 0,
+    "right": 1735.4544677734375,
+    "bottom": 1220.6817626953125,
+    "width": 1735.4544677734375,
+    "height": 1220.6817626953125
+  },
+  {
+    "componentName": "Sidebar",
+    "left": 0,
+    "top": 0,
+    "right": 307.9971618652344,
+    "bottom": 902.7272338867188,
+    "width": 307.9971618652344,
+    "height": 902.7272338867188
+  },
+  {
+    "componentName": "Overlay",
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "componentName": "SidebarV2",
+    "left": 0,
+    "top": 0,
+    "right": 95.99431610107422,
+    "bottom": 1220.6817626953125,
+    "width": 95.99431610107422,
+    "height": 1220.6817626953125
+  },
+  {
+    "componentName": "HeaderOne",
+    "left": 303.991455078125,
+    "top": 0,
+    "right": 1731.4345703125,
+    "bottom": 107.99715423583984,
+    "width": 1427.443115234375,
+    "height": 107.99715423583984
+  },
+  {
+    "componentName": "SearchBar",
+    "left": 640.7528076171875,
+    "top": 25.99431800842285,
+    "right": 1040.7528076171875,
+    "bottom": 81.98863410949707,
+    "width": 400,
+    "height": 55.99431610107422
+  },
+  {
+    "componentName": "ModeToggler",
+    "left": 1136.818115234375,
+    "top": 27.99715805053711,
+    "right": 1188.8067512512207,
+    "bottom": 79.98579406738281,
+    "width": 51.9886360168457,
+    "height": 51.9886360168457
+  },
+  {
+    "componentName": "ToggleBtn",
+    "left": 1208.8067626953125,
+    "top": 27.99715805053711,
+    "right": 1260.7953987121582,
+    "bottom": 79.98579406738281,
+    "width": 51.9886360168457,
+    "height": 51.9886360168457
+  },
+  {
+    "componentName": "NotificationPopup",
+    "left": 1246.7896728515625,
+    "top": 53.99147415161133,
+    "right": 1246.7896728515625,
+    "bottom": 53.99147415161133,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "componentName": "ToggleBtn",
+    "left": 1280.79541015625,
+    "top": 27.99715805053711,
+    "right": 1332.7840461730957,
+    "bottom": 79.98579406738281,
+    "width": 51.9886360168457,
+    "height": 51.9886360168457
+  },
+  {
+    "componentName": "MassagePopup",
+    "left": 1318.7783203125,
+    "top": 53.99147415161133,
+    "right": 1318.7783203125,
+    "bottom": 53.99147415161133,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "componentName": "ToggleBtn",
+    "left": 1352.7840576171875,
+    "top": 27.99715805053711,
+    "right": 1404.7726936340332,
+    "bottom": 79.98579406738281,
+    "width": 51.9886360168457,
+    "height": 51.9886360168457
+  },
+  {
+    "componentName": "StorePopUp",
+    "left": 1390.7669677734375,
+    "top": 53.99147415161133,
+    "right": 1390.7669677734375,
+    "bottom": 53.99147415161133,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "componentName": "Author",
+    "left": 1491.7613525390625,
+    "top": 27.99715805053711,
+    "right": 1655.4261169433594,
+    "bottom": 79.98579406738281,
+    "width": 163.66476440429688,
+    "height": 51.9886360168457
+  },
+  {
+    "componentName": "ProfilePopup",
+    "left": 1116.818115234375,
+    "top": 79.98579406738281,
+    "right": 1655.426025390625,
+    "bottom": 79.98579406738281,
+    "width": 538.60791015625,
+    "height": 0
+  },
+  {
+    "componentName": "HeaderTwo",
+    "left": 303.991455078125,
+    "top": 0,
+    "right": 1735.4544677734375,
+    "bottom": 0,
+    "width": 1431.4630126953125,
+    "height": 0
+  },
+  {
+    "componentName": "ResProfilePopup",
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "componentName": "Settings",
+    "left": 303.991455078125,
+    "top": 0,
+    "right": 1735.4544677734375,
+    "bottom": 1220.6817626953125,
+    "width": 1431.4630126953125,
+    "height": 1220.6817626953125
+  },
+  {
+    "componentName": "SettingsSidebar",
+    "left": 351.9886169433594,
+    "top": 155.9943084716797,
+    "right": 685.8522338867188,
+    "bottom": 1172.6846160888672,
+    "width": 333.8636169433594,
+    "height": 1016.6903076171875
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 179.9857940673828,
+    "right": 668.9488525390625,
+    "bottom": 279.9715881347656,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 279.9715881347656,
+    "right": 668.9488525390625,
+    "bottom": 379.95738220214844,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 379.9573669433594,
+    "right": 668.9488525390625,
+    "bottom": 479.9431610107422,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 479.94317626953125,
+    "right": 668.9488525390625,
+    "bottom": 579.9289703369141,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 579.928955078125,
+    "right": 668.9488525390625,
+    "bottom": 679.9147491455078,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 679.9147338867188,
+    "right": 668.9488525390625,
+    "bottom": 779.9005279541016,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "TabBtn",
+    "left": 367.9829406738281,
+    "top": 779.9005126953125,
+    "right": 668.9488525390625,
+    "bottom": 879.8863067626953,
+    "width": 300.9659118652344,
+    "height": 99.98579406738281
+  },
+  {
+    "componentName": "Progressbar",
+    "left": 383.9772644042969,
+    "top": 903.8778076171875,
+    "right": 652.9545288085938,
+    "bottom": 1128.8493957519531,
+    "width": 268.9772644042969,
+    "height": 224.97158813476562
+  },
+  {
+    "componentName": "PersonalInfo",
+    "left": 725.8522338867188,
+    "top": 187.98294067382812,
+    "right": 1647.4573364257812,
+    "bottom": 1140.6959533691406,
+    "width": 921.6051025390625,
+    "height": 952.7130126953125
+  },
+  {
+    "componentName": "PersonalInfoFrom",
+    "left": 725.8522338867188,
+    "top": 187.98294067382812,
+    "right": 1324.2470703125,
+    "bottom": 1140.6959533691406,
+    "width": 598.3948364257812,
+    "height": 952.7130126953125
+  }
+]
+
+      function drawComponents(canvas, components) {
+        if (!canvas.getContext) {
+          console.error('Canvas not supported')
+          return
+        }
+
+        const ctx = canvas.getContext('2d')
+        const maxRight = Math.max(...components.map((c) => c.right))
+        const maxBottom = Math.max(...components.map((c) => c.bottom))
+
+        canvas.width = maxRight
+        canvas.height = maxBottom
+
+        components.forEach((component) => {
+          const width = component.right - component.left
+          const height = component.bottom - component.top
+
+          ctx.beginPath()
+          ctx.rect(component.left, component.top, width, height)
+          ctx.strokeStyle = 'red'
+          ctx.stroke()
+
+          ctx.fillStyle = 'blue'
+          ctx.font = '12px Arial'
+          ctx.fillText(
+            component.componentName,
+            component.left,
+            component.top + 12
+          )
+        })
+      }
+
+      window.onload = () => {
+        const canvas = document.getElementById('reactCanvas')
+        drawComponents(canvas, components)
+      }
+    </script>
+  </body>
+</html>

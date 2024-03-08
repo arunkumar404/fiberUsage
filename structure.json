@@ -1,0 +1,907 @@
+[
+  {
+    "type": "file",
+    "name": "README.md",
+    "process": false,
+    "containsJSX": false,
+    "fullPath": "README.md"
+  },
+  {
+    "type": "file",
+    "name": "components.json",
+    "process": false,
+    "containsJSX": false,
+    "fullPath": "components.json"
+  },
+  {
+    "type": "file",
+    "name": "jsconfig.json",
+    "process": false,
+    "containsJSX": false,
+    "fullPath": "jsconfig.json"
+  },
+  {
+    "type": "file",
+    "name": "package-lock.json",
+    "process": false,
+    "containsJSX": false,
+    "fullPath": "package-lock.json"
+  },
+  {
+    "type": "file",
+    "name": "package.json",
+    "process": false,
+    "containsJSX": false,
+    "fullPath": "package.json"
+  },
+  {
+    "type": "file",
+    "name": "postcss.config.js",
+    "process": true,
+    "containsJSX": false,
+    "fullPath": "postcss.config.js"
+  },
+  {
+    "type": "directory",
+    "name": "public",
+    "children": [
+      {
+        "type": "file",
+        "name": "favicon.ico",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/favicon.ico"
+      },
+      {
+        "type": "file",
+        "name": "index.html",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/index.html"
+      },
+      {
+        "type": "file",
+        "name": "logo192.png",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/logo192.png"
+      },
+      {
+        "type": "file",
+        "name": "logo512.png",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/logo512.png"
+      },
+      {
+        "type": "file",
+        "name": "manifest.json",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/manifest.json"
+      },
+      {
+        "type": "file",
+        "name": "robots.txt",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "public/robots.txt"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "src",
+    "children": [
+      {
+        "type": "file",
+        "name": "App.js",
+        "process": true,
+        "containsJSX": true,
+        "fullPath": "src/App.js",
+        "definedComponents": [
+          {
+            "name": "App",
+            "type": "functional",
+            "isDefaultExport": true,
+            "isNamedExport": false
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "App.module.css",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "src/App.module.css"
+      },
+      {
+        "type": "directory",
+        "name": "common",
+        "children": [
+          {
+            "type": "directory",
+            "name": "icons",
+            "children": [
+              {
+                "type": "file",
+                "name": "AddIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/AddIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "AddIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "CartIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/CartIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "CartIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "FacebookIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/FacebookIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "FacebookIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "FilterIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/FilterIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "FilterIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "InstagramIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/InstagramIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "InstagramIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "LeftArrowIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/LeftArrowIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "LeftArrowIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "LeftLongArrowIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/LeftLongArrowIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "LeftLongArrowIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "ProfileIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/ProfileIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "ProfileIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "RightArrowIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/RightArrowIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "RightArrowIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "SearchIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/SearchIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "SearchIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "TwitterIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/TwitterIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "TwitterIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "YoutubeIcon.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/common/icons/YoutubeIcon.js",
+                "definedComponents": [
+                  {
+                    "name": "YoutubeIcon",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "index.js",
+                "process": true,
+                "containsJSX": false,
+                "fullPath": "src/common/icons/index.js"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "images",
+            "children": [
+              {
+                "type": "file",
+                "name": "bg_img_1.jpg",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/bg_img_1.jpg"
+              },
+              {
+                "type": "file",
+                "name": "bg_img_2.jpg",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/bg_img_2.jpg"
+              },
+              {
+                "type": "file",
+                "name": "item_view_1.webp",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/item_view_1.webp"
+              },
+              {
+                "type": "file",
+                "name": "item_view_2.webp",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/item_view_2.webp"
+              },
+              {
+                "type": "file",
+                "name": "logoExtreme.png",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/logoExtreme.png"
+              },
+              {
+                "type": "file",
+                "name": "men_item_1.webp",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/men_item_1.webp"
+              },
+              {
+                "type": "file",
+                "name": "men_item_2.webp",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/men_item_2.webp"
+              },
+              {
+                "type": "file",
+                "name": "men_item_3.webp",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/common/images/men_item_3.webp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "components",
+        "children": [
+          {
+            "type": "directory",
+            "name": "ui",
+            "children": [
+              {
+                "type": "file",
+                "name": "button.jsx",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/components/ui/button.jsx",
+                "definedComponents": [
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "Button",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": true,
+                    "wrappedIn": "forwardRef"
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "drawer.jsx",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/components/ui/drawer.jsx",
+                "definedComponents": [
+                  {
+                    "name": "DrawerOverlay",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": true,
+                    "wrappedIn": "forwardRef"
+                  },
+                  {
+                    "name": "DrawerContent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": true,
+                    "wrappedIn": "forwardRef"
+                  },
+                  {
+                    "name": "DrawerTitle",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": true,
+                    "wrappedIn": "forwardRef"
+                  },
+                  {
+                    "name": "DrawerDescription",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": true,
+                    "wrappedIn": "forwardRef"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "constants.js",
+        "process": true,
+        "containsJSX": true,
+        "fullPath": "src/constants.js"
+      },
+      {
+        "type": "directory",
+        "name": "containers",
+        "children": [
+          {
+            "type": "file",
+            "name": "HeroMainContainer.js",
+            "process": true,
+            "containsJSX": true,
+            "fullPath": "src/containers/HeroMainContainer.js",
+            "definedComponents": [
+              {
+                "name": "HeroMainContainer",
+                "type": "functional",
+                "isDefaultExport": true,
+                "isNamedExport": false
+              },
+              {
+                "name": "UnknownFunctionalComponent",
+                "type": "functional",
+                "isDefaultExport": false,
+                "isNamedExport": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "context.js",
+        "process": true,
+        "containsJSX": true,
+        "fullPath": "src/context.js",
+        "definedComponents": [
+          {
+            "name": "ContextProvider",
+            "type": "functional",
+            "isDefaultExport": false,
+            "isNamedExport": false
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "globals.css",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "src/globals.css"
+      },
+      {
+        "type": "file",
+        "name": "index.css",
+        "process": false,
+        "containsJSX": false,
+        "fullPath": "src/index.css"
+      },
+      {
+        "type": "file",
+        "name": "index.js",
+        "process": true,
+        "containsJSX": true,
+        "fullPath": "src/index.js",
+        "containsReactRoot": true
+      },
+      {
+        "type": "directory",
+        "name": "lib",
+        "children": [
+          {
+            "type": "file",
+            "name": "utils.js",
+            "process": true,
+            "containsJSX": false,
+            "fullPath": "src/lib/utils.js"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "modules",
+        "children": [
+          {
+            "type": "directory",
+            "name": "Auth",
+            "children": [
+              {
+                "type": "file",
+                "name": "Auth.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/Auth/Auth.css"
+              },
+              {
+                "type": "file",
+                "name": "LoginPage.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Auth/LoginPage.js",
+                "definedComponents": [
+                  {
+                    "name": "LoginPage",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "SignupPage.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Auth/SignupPage.js",
+                "definedComponents": [
+                  {
+                    "name": "SignupPage",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "Collections",
+            "children": [
+              {
+                "type": "file",
+                "name": "CollectionItem.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Collections/CollectionItem.js",
+                "definedComponents": [
+                  {
+                    "name": "CollectionItem",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "Collections.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Collections/Collections.js",
+                "definedComponents": [
+                  {
+                    "name": "Collections",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "Collections.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/Collections/Collections.module.css"
+              },
+              {
+                "type": "file",
+                "name": "CollectionsBroad.jsx",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Collections/CollectionsBroad.jsx",
+                "definedComponents": [
+                  {
+                    "name": "CollectionsBroad",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "ProductDetailed.jsx",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Collections/ProductDetailed.jsx",
+                "definedComponents": [
+                  {
+                    "name": "ProductDetailed",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "Footer",
+            "children": [
+              {
+                "type": "file",
+                "name": "Footer.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Footer/Footer.js",
+                "definedComponents": [
+                  {
+                    "name": "Footer",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "Footer.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/Footer/Footer.module.css"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "Header",
+            "children": [
+              {
+                "type": "file",
+                "name": "Header.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/Header/Header.js",
+                "definedComponents": [
+                  {
+                    "name": "Header",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "Header.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/Header/Header.module.css"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "JustDropped",
+            "children": [
+              {
+                "type": "file",
+                "name": "GenderTab.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/JustDropped/GenderTab.js",
+                "definedComponents": [
+                  {
+                    "name": "GenderTab",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "ItemSlider.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/JustDropped/ItemSlider.js",
+                "definedComponents": [
+                  {
+                    "name": "ItemSlider",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "JustDropped.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/JustDropped/JustDropped.js",
+                "definedComponents": [
+                  {
+                    "name": "JustDropped",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "JustDropped.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/JustDropped/JustDropped.module.css"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "MainHeroPage",
+            "children": [
+              {
+                "type": "file",
+                "name": "MainHeroPage.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/MainHeroPage/MainHeroPage.js",
+                "definedComponents": [
+                  {
+                    "name": "MainHeroPage",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "MainHeroPage.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/MainHeroPage/MainHeroPage.module.css"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "SpecialSaleCard",
+            "children": [
+              {
+                "type": "file",
+                "name": "SpecialSaleCard.js",
+                "process": true,
+                "containsJSX": true,
+                "fullPath": "src/modules/SpecialSaleCard/SpecialSaleCard.js",
+                "definedComponents": [
+                  {
+                    "name": "SpecialSaleCard",
+                    "type": "functional",
+                    "isDefaultExport": true,
+                    "isNamedExport": false
+                  },
+                  {
+                    "name": "UnknownFunctionalComponent",
+                    "type": "functional",
+                    "isDefaultExport": false,
+                    "isNamedExport": false
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "name": "SpecialSaleCard.module.css",
+                "process": false,
+                "containsJSX": false,
+                "fullPath": "src/modules/SpecialSaleCard/SpecialSaleCard.module.css"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "file",
+    "name": "tailwind.config.js",
+    "process": true,
+    "containsJSX": false,
+    "fullPath": "tailwind.config.js"
+  }
+]
